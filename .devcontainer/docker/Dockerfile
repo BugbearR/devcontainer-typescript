@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/typescript-node:16-bullseye
+FROM mcr.microsoft.com/devcontainers/typescript-node:1-bullseye
 
 USER root
 RUN apt-get update -y \
